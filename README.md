@@ -1,10 +1,12 @@
-nstructions
+Instructions
 The instructions for this mini project are divided into the following subsections:
 
 Create the Category and Subcategory DataFrames
 Create the Campaign DataFrame
 Create the Contacts DataFrame
 Create the Crowdfunding Database
+
+
 Create the Category and Subcategory DataFrames
 Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
 
@@ -13,8 +15,9 @@ A "category_id" column that has entries going sequentially from "cat1" to "catn"
 A "category" column that contains only the category titles
 
 The following image shows this category DataFrame:
+![image](https://user-images.githubusercontent.com/122496169/234092629-58aeded2-d211-4c04-9bce-78e9976307a8.png)
 
-category DataFrame
+
 
 Export the category DataFrame as category.csv and save it to your GitHub repository.
 
@@ -26,7 +29,8 @@ A "subcategory" column that contains only the subcategory titles
 
 The following image shows this subcategory DataFrame:
 
-subcategory DataFrame
+![image](https://user-images.githubusercontent.com/122496169/234092784-f992fa19-323d-419d-b3be-2eb29e0f4c09.png)
+
 
 Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 
@@ -63,7 +67,10 @@ The "subcategory_id" column, with the unique identification numbers matching tho
 
 The following image shows this campaign DataFrame:
 
-campaign DataFrame
+![image](https://user-images.githubusercontent.com/122496169/234092938-9486a86c-b511-4e40-b3e0-59dc63212f2e.png)
+
+
+
 
 Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
@@ -94,7 +101,8 @@ Split each "name" column value into a first and a last name, and place each in a
 Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
 Check that your final DataFrame resembles the one in the following image:
 
-final contact DataFrame
+![image](https://user-images.githubusercontent.com/122496169/234093023-685fddb3-aece-4e51-962e-ef80d5ffe94f.png)
+
 
 Create the Crowdfunding Database
 Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
