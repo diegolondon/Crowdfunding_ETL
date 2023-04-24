@@ -51,9 +51,12 @@ CREATE TABLE "campaign" (
         "cf_id"
      )
 );
+<<<<<<< HEAD
 SELECT *
 FROM campaign;
 
+=======
+>>>>>>> e97b2205766cd21cc94c0f3669cace34d2d40411
 
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_contact_id" FOREIGN KEY("contact_id")
 REFERENCES "contacts" ("contact_id");
